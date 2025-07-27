@@ -1,0 +1,38 @@
+{
+  "name": "ts-transformer-keys",
+  "version": "0.4.4",
+  "description": "A TypeScript custom transformer which enables to obtain keys of given type.",
+  "scripts": {
+    "prepare": "tsc",
+    "prepublishOnly": "npm test",
+    "test": "node test/compile && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimamula/ts-transformer-keys.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "kimamula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimamula/ts-transformer-keys/issues"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "transformer.js",
+    "transformer.ts"
+  ],
+  "homepage": "https://github.com/kimamula/ts-transformer-keys#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.9",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.4.1"
+  }
+}
